@@ -1,7 +1,11 @@
+import FriendsLists from "./components/FriendsLists";
+
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className="app">
+      <div className="sidebar">
+        <FriendsLists />
+      </div>
     </div>
   );
 }
